@@ -1,3 +1,3 @@
-<script>
-alert("Hello, World!");
-</script>
+
+var A = "This is a string";
+document.write(A);
