@@ -1,3 +1,3 @@
-var A = "Scripting"
+var A = "Scripting";
 
 document.write(A);
