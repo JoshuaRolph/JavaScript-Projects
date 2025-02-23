@@ -8,3 +8,14 @@ function my_Dictionary() {
     };
     document.getElementById("Dictionary").innerHTML = Animal.Sound;
 }
+
+function my_audio_Dictionary() {
+    var Band = {
+        Title: "Killswitch Engage",
+        Genre: "Heavy Metal",
+        Rating: "Mature",
+        Sound: "Screaming"
+    };
+    document.getElementById("Audio").innerHTML = Band.Genre;
+}
+document.write("10" + 5);
