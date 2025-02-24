@@ -1,3 +1,5 @@
+
+/* Height requirement for rides */
 function Ride_Function(){
     var Height, can_ride;
     Height = document.getElementById("Height").value;
@@ -5,6 +7,7 @@ function Ride_Function(){
     document.getElementById("Ride").innerHTML = can_ride + " to ride.";
 }
 
+/* Type of vehicles being driven */
 function Vehicle(Make, Model, Year, Color) {
     this.Vehicle_Make = Make;
     this.Vehicle_Model = Model;
@@ -17,5 +20,6 @@ var Erik = new Vehicle("Ford", "Pinto", 1971, "Mustard");
 function myFunction() {
     document.getElementById("Keywords_and_Constructors").innerHTML =
     "Erik drives a " + Erik.Vehicle_Color + "-colored " + Erik.Vehicle_Model
-    + "manufactured in " + Erik.Vehicle_Year;
+    + " manufactured in " + Erik.Vehicle_Year;
 }
+
