@@ -21,8 +21,8 @@ function slice_Method() {
 //ToUppercCase Method//
 
 function myFunction() {
-    let text = document.getElementById("demo").innerHTML;
-    document.getElementById("demo").innerHTML =
+    let text = document.getElementById("demo1").innerHTML;
+    document.getElementById("demo1").innerHTML =
     text.toUpperCase();
   }
 
@@ -32,3 +32,25 @@ function string_Method() {
     var X =182;
     document.getElementById("Numbers_to_string").innerHTML = X.toString();
 }
+
+//Precision Method//
+
+function precision_Method() {
+    var X = 12938.3012987376112;
+    document.getElementById("Precision").innerHTML = X.toPrecision(10);
+}
+
+//Fixed Method//
+function toFixed_Method() {
+let num = 5.56789;
+let n = num.toFixed(3);
+
+document.getElementById("test").innerHTML = n;
+}
+
+//Value Method//
+
+let text = "Hello World!";
+let result = text.valueOf();
+
+document.getElementById("demo").innerHTML = result;
